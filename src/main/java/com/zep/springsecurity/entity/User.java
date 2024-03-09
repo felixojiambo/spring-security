@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserInfo {
+public class User {
 
     @Id
     @GeneratedValue
@@ -19,5 +19,5 @@ public class UserInfo {
     private String name;
     private  String email;
     private  String roles;
-
+private  String password;
 }
